@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google fonts: Bebas Neue and Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,9 +25,68 @@
   </head>
 
   <body>
-    <header class="bg-amber-100 py-20 px-4 md:px-32">
+    <header class="bg-amber-100 py-20 md:px-32 relative">
       <!-- nav section -->
-      <nav></nav>
+      <div class="absolute top-0 left-[30%] ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="61" viewBox="0 0 150 61" fill="none">
+          <circle cx="2.08346" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="83.1018" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="2.08346" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="83.1018" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="2.08346" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="83.1018" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="2.08346" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="83.1018" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="18.2871" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="99.3055" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="18.2871" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="99.3055" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="18.2871" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="99.3055" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="18.2871" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="99.3055" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="34.4908" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="115.509" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="34.4908" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="115.509" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="34.4908" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="115.509" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="34.4908" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="115.509" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="50.6945" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="131.713" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="50.6945" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="131.713" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="50.6945" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="131.713" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="50.6945" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="131.713" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="66.8981" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="147.916" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="66.8981" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="147.916" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="66.8981" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="147.916" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="66.8981" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+          <circle cx="147.916" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+        </svg>
+      </div>
+      <nav>
+        <div class=" lg:flex justify-between">
+          <div class="lg:navbar-start flex justify-center">
+            <img class="w-72 h-10" src="icons/logo.png" alt="">
+          </div>
+          <div class="flex -ml-20  justify-center ">
+            <ul class="flex flex-col items-center lg:flex-row justify-center lg:justify-evenly text-[#3C3C3C] font-medium">
+              <li class="pl-14"><a>Home</a></li>
+              <li class="pl-14"><a>Product</a></li>
+              <li class="pl-14"><a>About us</a></li>
+              <li class="pl-14"><a>Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
       <!-- banner section -->
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="space-y-3">
